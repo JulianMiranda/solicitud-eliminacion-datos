@@ -1,0 +1,58 @@
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	margin-top: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input,
+textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+.botonapp {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #2684fd; /* Color de fondo del botón */
+	color: #fff;
+	text-decoration: none;
+	border-radius: 20px;
+	transition: background-color 0.3s ease;
+	margin-top: 2rem;
+}
+
+/* Estilos para cuando se pasa el mouse sobre el botón */
+.botonapp:hover {
+	background-color: #0e5fae; /* Cambio de color de fondo al pasar el mouse */
+}
